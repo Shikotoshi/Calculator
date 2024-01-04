@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div>
+            <ion-icon name="moon-outline" class="switch"></ion-icon>
+        </div>
+        <div class="calculator">
+            <div class="value-section">
+                <div class="value-tab">
+                    <h2 id="value"></h2>
+                </div>
+            </div>
+            <div class="bottons-section">
+                <div class="bottons">
+                    <div class="row">
+                        <button class="btn">7</button>
+                        <button class="btn">8</button>
+                        <button class="btn">9</button>
+                        <button class="btn">/</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn">4</button>
+                        <button class="btn">5</button>
+                        <button class="btn">6</button>
+                        <button class="btn">*</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn">1</button>
+                        <button class="btn">2</button>
+                        <button class="btn">3</button>
+                        <button class="btn">-</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn">AC</button>
+                        <button class="btn">0</button>
+                        <button class="btn">.</button>
+                        <button class="btn">+</button>
+                    </div>
+                    <div class="row">
+                        <button class="btn" id="equal">=</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
